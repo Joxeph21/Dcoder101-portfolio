@@ -7,23 +7,43 @@ import { BiLogoTwitter } from "react-icons/bi";
 function Intro() {
   return (
     <div className="text-white" id="intro">
-      <div className="max-w-[600px] flex flex-col justify-center font-bold gap-3 px-5 text-center mx-auto h-screen mt-[-100px]">
-        <p className="text-sky-400 text-xl" data-aos="fade-in" data-aos-delay="500">
+      <div className="max-w-[600px] flex flex-col justify-center font-bold gap-2 px-5 text-center mx-auto h-screen mt-[-100px]">
+        <p
+          className="text-sky-400 text-xl"
+          data-aos="fade-in"
+          data-aos-delay="500"
+        >
           <code>Hi,</code>
         </p>
-        <h1 className="text-4xl text-blue-100" data-aos="fade-right" data-aos-delay="600">
+        <h1
+          className="text-4xl text-blue-100"
+          data-aos="fade-right"
+          data-aos-delay="600"
+        >
           I'm <ReactTyped strings={["Dcoder101."]} typeSpeed={100} loop />
         </h1>
-        <h1 className="text-sky-400 text-4xl md:text-4xl" data-aos="fade-in" data-aos-delay="700">
+        <h1
+          className="text-sky-400 text-4xl md:text-4xl"
+          data-aos="fade-in"
+          data-aos-delay="700"
+        >
           Frontend Developer.
         </h1>
-        <p className="font-medium text-blue-100 text-lg" data-aos="fade-in" data-aos-delay="750">
+        <p
+          className="font-medium text-blue-100 text-lg"
+          data-aos="fade-in"
+          data-aos-delay="750"
+        >
           I specialize in creating scalable, fast and mobile first Applications
           with nice and exceptional digital{" "}
           <span className="text-sky-400">Experiences.</span>
         </p>
 
-        <div className="flex text-black gap-5 mx-auto" data-aos="fade-up" data-aos-delay="800">
+        <div
+          className="flex text-black gap-5 mx-auto"
+          data-aos="fade-up"
+          data-aos-delay="800"
+        >
           <span className="bg-blue-100 rounded-full p-2">
             <PiGithubLogoFill size={20} />
           </span>

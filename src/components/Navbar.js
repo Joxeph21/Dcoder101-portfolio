@@ -140,7 +140,7 @@ function MobileNav({ showNav, handleClose }) {
       }
     >
       <ul
-        className={`text-center w-full grid gap-6 ${showNav ? "" : "hidden"}`}
+        className={`text-center w-full grid gap-10 ${showNav ? "" : "hidden"}`}
       >
         <li>
           <Link

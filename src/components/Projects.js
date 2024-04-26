@@ -19,10 +19,10 @@ function Projects() {
           <hr className="my-12 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
         </span>
       </div>
-      <div className="max-w-[1440px] text-white grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 auto-rows-[500px]">
+      <div className="max-w-[1440px] text-white grid sm:grid-cols-2 lg:grid-cols-3 min-[1200px]:grid-cols-4 gap-8 auto-rows-[500px]">
         {Array.from({ length: 4 }, (_, i) => (
           <div
-            className="max-w-[300px] flex flex-col gap-2 mx-auto hover:shadow-lg hover:shadow-slate-950 px-2 ease-in-out transition-all duration-300"
+            className="max-w-[320px] flex flex-col gap-2 mx-auto hover:shadow-lg hover:shadow-slate-950 px-2 ease-in-out transition-all duration-300"
             key={i}
             data-aos="fade-up"
             data-aos-delay="200"
