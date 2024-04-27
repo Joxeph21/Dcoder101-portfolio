@@ -1,6 +1,5 @@
 import { IoMenu, IoClose } from "react-icons/io5";
 import { VscBriefcase } from "react-icons/vsc";
-// import { BsMouse2 } from "react-icons/bs";
 import { FaLaptopCode } from "react-icons/fa";
 import { IoCodeSlash } from "react-icons/io5";
 import { useState } from "react";
@@ -39,9 +38,7 @@ function Navbar() {
             className="flex gap-1 items-center cursor-pointer nav_link"
             spy={true}
             smooth={true}
-            // offset={-20}
             duration={500}
-            // onSetActive={handleSetActive}
           >
             <span className="text-sky-400 text-lg">
               <IoCodeSlash />
@@ -55,9 +52,7 @@ function Navbar() {
             className="flex gap-1 items-center cursor-pointer nav_link"
             spy={true}
             smooth={true}
-            // offset={-20}
             duration={500}
-            // onSetActive={handleSetActive}
           >
             <span className="text-sky-400 text-lg">
               <IoCodeSlash />
@@ -71,9 +66,7 @@ function Navbar() {
             className="flex gap-1 items-center cursor-pointer nav_link"
             spy={true}
             smooth={true}
-            // offset={-20}
             duration={500}
-            // onSetActive={handleSetActive}
           >
             <span className="text-sky-400 text-lg">
               <IoCodeSlash />
@@ -87,16 +80,14 @@ function Navbar() {
             className="flex gap-1 items-center cursor-pointer nav_link"
             spy={true}
             smooth={true}
-            // offset={-20}
             duration={500}
-            // onSetActive={handleSetActive}
           >
             <span className="text-sky-400 text-lg">
               <IoCodeSlash />
             </span>
             Contact me
           </Link>
-        </li>
+        </li> 
         <li data-aos="fade-down" data-aos-delay="500">
           <button className="border-2 rounded py-2 px-4 border-sky-400 text-sky-300 flex items-center gap-2">
             View Resume <VscBriefcase />
@@ -105,7 +96,6 @@ function Navbar() {
       </ul>
 
       <div onClick={handleNav} className="z-10 block md:hidden">
-        {/* <IoMenu size={30} className="text-sky-400 ease-in-out duration-500" /> */}
         {!showNav ? (
           <IoMenu size={30} className="text-sky-400" />
         ) : (
@@ -123,12 +113,6 @@ function Navbar() {
 }
 
 export default Navbar;
-
-/* <div
-className={`flex items-center fixed right-0 top-0 h-screen md:hidden bg-[#0a192f] duration-300 ease-in-out w-[${
-  showNav ? "70%" : "0%"
-}] `}
-></div> */
 
 function MobileNav({ showNav, handleClose }) {
   return (

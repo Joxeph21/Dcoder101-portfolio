@@ -6,17 +6,6 @@ import { IoCodeSlash } from "react-icons/io5";
 import { useFormik } from "formik";
 import { sendEmailSchema } from "../schemas";
 
-// const config = {
-//   Username: 'dcoder495@gmail.com',
-//   Password: 'DDEA10D1146D0E5610DE854C294C6EC834E3',
-//   Host: 'smtp.elasticemail.com',
-//   Port: 2525,
-//   To : 'them@website.com',
-//   From : "you@isp.com",
-//   Subject : "This is the subject",
-//   Body : "And this is the body"
-
-// }
 
 function Contact() {
   const onSubmit = async (actions) => {
