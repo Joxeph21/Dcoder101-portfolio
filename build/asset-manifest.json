@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.de45f0e6.css",
-    "main.js": "/static/js/main.31b44e66.js",
+    "main.css": "/static/css/main.de0eca97.css",
+    "main.js": "/static/js/main.590a2af8.js",
+    "static/media/ipTracker.jpg": "/static/media/ipTracker.bba9fbf66068586db8b9.jpg",
+    "static/media/contact.jpg": "/static/media/contact.8feb16eaa6acb81cd368.jpg",
+    "static/media/pizzarena.jpg": "/static/media/pizzarena.ba9ad93a0fdc6f5d611d.jpg",
+    "static/media/pigGame.jpeg": "/static/media/pigGame.c0addac19783404ae67c.jpeg",
+    "static/media/guess.jpeg": "/static/media/guess.7f239be89d9f39ffd6aa.jpeg",
+    "static/media/tictactoe.jpeg": "/static/media/tictactoe.0cc2baa19d39a4fba596.jpeg",
+    "static/media/stopWatch.jpeg": "/static/media/stopWatch.7b0d7863749fc01295cc.jpeg",
+    "static/media/reactQuiz.jpg": "/static/media/reactQuiz.873316545b37175e5d66.jpg",
     "static/media/profile1.jpeg": "/static/media/profile1.7788fd6ccff22b0cdca2.jpeg",
+    "static/media/snake.jpg": "/static/media/snake.3cf108fa6e81d84e479e.jpg",
     "index.html": "/index.html",
-    "main.de45f0e6.css.map": "/static/css/main.de45f0e6.css.map",
-    "main.31b44e66.js.map": "/static/js/main.31b44e66.js.map"
+    "main.de0eca97.css.map": "/static/css/main.de0eca97.css.map",
+    "main.590a2af8.js.map": "/static/js/main.590a2af8.js.map"
   },
   "entrypoints": [
-    "static/css/main.de45f0e6.css",
-    "static/js/main.31b44e66.js"
+    "static/css/main.de0eca97.css",
+    "static/js/main.590a2af8.js"
   ]
 }
