@@ -18,9 +18,9 @@ function Navbar() {
 
   return (
     <div
-      className={`navbar flex justify-between text-white max-w-[1440px] md:h-20 ${
+      className={`navbar flex justify-between -translate-x-1/2 text-white max-w-[1440px] left-1/2 md:h-20 ${
         showNav ? "h-screen items-start pt-[24px]" : "items-center"
-      } px-5 h-20 w-full mx-auto font-mono bg-[#0a192f]/[0.85] fixed top-0 left-0 z-50 backdrop-blur-sm`}
+      } px-5 h-20 w-full font-mono bg-[#0a192f]/[0.85] fixed top-0 left-0 z-50 backdrop-blur-sm`}
     >
       <h1
         className="w-full text-sky-400 text-2xl md:3xl font-serif logo flex gap-1 items-center"
@@ -51,6 +51,7 @@ function Navbar() {
             to="about"
             className="flex gap-1 items-center cursor-pointer nav_link"
             spy={true}
+            // offset={11}
             smooth={true}
             duration={500}
           >
@@ -87,7 +88,7 @@ function Navbar() {
             </span>
             Contact me
           </Link>
-        </li> 
+        </li>
         <li data-aos="fade-down" data-aos-delay="500">
           <button className="border-2 rounded py-2 px-4 border-sky-400 text-sky-300 flex items-center gap-2">
             View Resume <VscBriefcase />

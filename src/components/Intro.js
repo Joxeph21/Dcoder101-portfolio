@@ -45,16 +45,24 @@ function Intro() {
           data-aos-delay="800"
         >
           <span className="bg-blue-100 rounded-full p-2">
-            <PiGithubLogoFill size={20} />
+            <a href="https://github.com/D-coder101">
+              <PiGithubLogoFill size={20} />
+            </a>
           </span>
           <span className="bg-blue-100 rounded-full p-2">
-            <BiLogoGmail size={20} />
+            <a href="mailto:dcoder495@gmail.com">
+              <BiLogoGmail size={20} />
+            </a>
           </span>
           <span className="bg-blue-100 rounded-full p-2">
-            <BiLogoLinkedin size={20} />
+            <a href="https://www.linkedin.com/in/favour-bello-831784281/">
+              <BiLogoLinkedin size={20} />
+            </a>
           </span>
           <span className="bg-blue-100 rounded-full p-2">
+            <a href="https://twitter.com/favour31249">
             <BiLogoTwitter size={20} />
+            </a>
           </span>
         </div>
       </div>

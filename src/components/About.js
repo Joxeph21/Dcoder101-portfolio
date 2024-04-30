@@ -1,10 +1,9 @@
 import { IoCodeSlash } from "react-icons/io5";
 import Profile1 from "../assets/profile1.jpeg";
-// import Profile2 from "../assets/profile2.jpeg";
 
 function About() {
   return (
-    <div className="w-full py-12 px-5" id="about">
+    <div className="w-full py-12 px-5 max-w-[1400px] mx-auto" id="about">
       <div
         className="text-2xl text-sky-100 mb-5 grid grid-cols-[max-content_auto] items-center md:w-[50%]"
         data-aos="fade-right"
@@ -79,7 +78,7 @@ function About() {
             ))}
           </div>
         </div>
-        <div className="text-center h-[300px] grid items-center justify-center transition-all duration-300 ease-in-out">
+        <div className="text-center h-[500px] grid items-center justify-center transition-all duration-300 ease-in-out">
           <div
             className="h-[230px] w-[230px] md:h-[350px] md:w-[300px] border-2 border-sky-400 rounded relative"
             data-aos="zoom-in"

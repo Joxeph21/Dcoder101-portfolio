@@ -5,10 +5,25 @@ import { MdOutlineMessage } from "react-icons/md";
 import { IoCodeSlash } from "react-icons/io5";
 import { useFormik } from "formik";
 import { sendEmailSchema } from "../schemas";
-
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
-  const onSubmit = async (actions) => {
+  const form = useRef();
+
+  const onSubmit = async (values, actions) => {
+    emailjs
+      .sendForm("service_b10rbsh", "template_w2q0er6", form.current, {
+        publicKey: "BeNYm_NwFCQMRn09m",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
     await new Promise((resolve) => setTimeout(resolve, 1000));
     actions.resetForm();
   };
@@ -34,7 +49,7 @@ function Contact() {
   console.log(errors);
 
   return (
-    <div className="w-full py-12 px-5" id="contact">
+    <div className="w-full py-12 px-5 max-w-[1400px] mx-auto" id="contact">
       <div
         className="text-2xl text-sky-100 mb-5 grid grid-cols-[max-content_auto] items-center md:w-[50%]"
         data-aos="fade-right"
@@ -79,7 +94,9 @@ function Contact() {
 
             <div className="flex items-center gap-3">
               <span className="bg-blue-100 rounded-full p-2 text-black">
+              <a href="mailto:dcoder495@gmail.com">
                 <BiLogoGmail size={20} />
+                </a>
               </span>
               <p className="text-blue-100">dcoder495@gmail.com</p>
             </div>
@@ -96,6 +113,7 @@ function Contact() {
         <div>
           <div className="max-w-[500px] mx-auto md:mx-0">
             <form
+              ref={form}
               onSubmit={handleSubmit}
               data-aos="zoom-in"
               data-aos-delay="300"
