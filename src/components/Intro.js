@@ -27,7 +27,7 @@ function Intro() {
           data-aos="fade-in"
           data-aos-delay="700"
         >
-          Frontend Developer.
+          Frontend Developer & React Developer.
         </h1>
         <p
           className="font-medium text-blue-100 text-lg"
